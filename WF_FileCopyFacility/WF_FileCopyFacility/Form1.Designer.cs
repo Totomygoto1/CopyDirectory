@@ -168,8 +168,8 @@
             this.lblMessage2.Name = "lblMessage2";
             this.lblMessage2.Size = new System.Drawing.Size(641, 17);
             this.lblMessage2.TabIndex = 14;
-            this.lblMessage2.Text = "Zip uses .zip copy functionality, XCopy uses xcopy.exe, VB uses Microsoft.VisualB" +
-    "asic copydirectory func";
+            this.lblMessage2.Text = "Zip uses ZipFile.ExtractToDirectory, XCopy uses xcopy.exe, VB uses Microsoft.Visu" +
+    "alBasic CopyDirectory";
             // 
             // Form1
             // 
