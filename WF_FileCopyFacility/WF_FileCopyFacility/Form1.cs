@@ -35,10 +35,9 @@ namespace WF_FileCopyFacility
             if (result == "0")
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
-                foreach (string s in cf._listFiles)
-                {
-                    lblFiles.Text += s;
-                }
+                
+                lsbFileInfo.Items.Clear();
+                lsbFileInfo.DataSource = cf._listFiles;
             }
             else
             {
