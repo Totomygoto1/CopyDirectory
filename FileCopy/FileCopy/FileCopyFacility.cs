@@ -10,7 +10,6 @@ namespace FileCopy
     public class FileCopyFacility : ICopyFacility
     {
         public List<string> _listFiles = new List<string>();
-        public string fileList;
 
         public int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
