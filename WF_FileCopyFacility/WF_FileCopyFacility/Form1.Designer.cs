@@ -158,8 +158,8 @@
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(531, 17);
             this.lblMessage.TabIndex = 13;
-            this.lblMessage.Text = "Use button \'Copy Files\' to print out all files being copied during the copying pr" +
-    "ocess";
+            this.lblMessage.Text = "Use button \'Copy Files\' for recursive copy and to print out all files being copie" +
+    "d during the copying process";
             // 
             // lblMessage2
             // 
@@ -168,8 +168,8 @@
             this.lblMessage2.Name = "lblMessage2";
             this.lblMessage2.Size = new System.Drawing.Size(641, 17);
             this.lblMessage2.TabIndex = 14;
-            this.lblMessage2.Text = "Zip will use .zip copy functionality, XCopy will use XCopy utility, VB will use M" +
-    "icrosoft.VisualBasic copy";
+            this.lblMessage2.Text = "Zip uses .zip copy functionality, XCopy uses xcopy.exe, VB uses Microsoft.VisualB" +
+    "asic copydirectory func";
             // 
             // Form1
             // 
