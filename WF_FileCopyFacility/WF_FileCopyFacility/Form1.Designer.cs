@@ -1,4 +1,4 @@
-﻿namespace WF_FileCopyFacility
+namespace WF_FileCopyFacility
 {
     partial class Form1
     {
@@ -42,6 +42,7 @@
             this.lblFiles = new System.Windows.Forms.Label();
             this.lblMessage = new System.Windows.Forms.Label();
             this.lblMessage2 = new System.Windows.Forms.Label();
+            this.lsbFileInfo = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnCopy
@@ -156,7 +157,7 @@
             this.lblMessage.AutoSize = true;
             this.lblMessage.Location = new System.Drawing.Point(55, 218);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(531, 17);
+            this.lblMessage.Size = new System.Drawing.Size(676, 17);
             this.lblMessage.TabIndex = 13;
             this.lblMessage.Text = "Use button \'Copy Files\' for recursive copy and to print out all files being copie" +
     "d during the copying process";
@@ -166,16 +167,27 @@
             this.lblMessage2.AutoSize = true;
             this.lblMessage2.Location = new System.Drawing.Point(58, 235);
             this.lblMessage2.Name = "lblMessage2";
-            this.lblMessage2.Size = new System.Drawing.Size(641, 17);
+            this.lblMessage2.Size = new System.Drawing.Size(668, 17);
             this.lblMessage2.TabIndex = 14;
             this.lblMessage2.Text = "Zip uses ZipFile.ExtractToDirectory, XCopy uses xcopy.exe, VB uses Microsoft.Visu" +
     "alBasic CopyDirectory";
+            // 
+            // lsbFileInfo
+            // 
+            this.lsbFileInfo.FormattingEnabled = true;
+            this.lsbFileInfo.ItemHeight = 16;
+            this.lsbFileInfo.Location = new System.Drawing.Point(58, 360);
+            this.lsbFileInfo.Name = "lsbFileInfo";
+            this.lsbFileInfo.ScrollAlwaysVisible = true;
+            this.lsbFileInfo.Size = new System.Drawing.Size(673, 68);
+            this.lsbFileInfo.TabIndex = 16;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lsbFileInfo);
             this.Controls.Add(this.lblMessage2);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.lblFiles);
@@ -213,6 +225,6 @@
         private System.Windows.Forms.Label lblFiles;
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Label lblMessage2;
+        private System.Windows.Forms.ListBox lsbFileInfo;
     }
 }
-
