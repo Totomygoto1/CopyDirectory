@@ -41,9 +41,7 @@ namespace FileCopy
                     string temppathfrom = Path.Combine(sourceDirName, file.Name);
                     string temppath = Path.Combine(destDirName, file.Name);
                     file.CopyTo(temppath, false);
-                    //Console.WriteLine("Copy from: " + temppathfrom + " Copy to: " + temppath + "\n");
                     _listFiles.Add("Copy from: " + temppathfrom + " Copy to: " + temppath);
-                    //fileList += "Copy from: " + temppathfrom + " Copy to: " + temppath + "\n";
                 }
 
                 if (copySubDirs)
@@ -54,9 +52,8 @@ namespace FileCopy
                         string temppathfrom = Path.Combine(sourceDirName, subdir.Name);
                         string temppath = Path.Combine(destDirName, subdir.Name);
                         DirectoryCopy(subdir.FullName, temppath, copySubDirs);
-                        //Console.WriteLine("Copy from: " + temppathfrom + " Copy to: " + temppath + "\n");
                         _listFiles.Add("Copy from: " + temppathfrom + " Copy to: " + temppath);
-                        //fileList += "Copy from: " + temppathfrom + " Copy to: " + temppath + "\n";
+                        
                     }
                 }
 
