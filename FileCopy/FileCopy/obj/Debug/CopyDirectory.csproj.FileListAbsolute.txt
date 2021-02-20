@@ -1,0 +1,7 @@
+E:\Humanus\FileCopy\FileCopy\bin\Debug\FileCopy.exe.config
+E:\Humanus\FileCopy\FileCopy\bin\Debug\FileCopy.exe
+E:\Humanus\FileCopy\FileCopy\bin\Debug\FileCopy.pdb
+E:\Humanus\FileCopy\FileCopy\obj\Debug\CopyDirectory.csprojAssemblyReference.cache
+E:\Humanus\FileCopy\FileCopy\obj\Debug\CopyDirectory.csproj.CoreCompileInputs.cache
+E:\Humanus\FileCopy\FileCopy\obj\Debug\FileCopy.exe
+E:\Humanus\FileCopy\FileCopy\obj\Debug\FileCopy.pdb

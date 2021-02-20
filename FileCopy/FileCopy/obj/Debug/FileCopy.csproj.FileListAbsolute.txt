@@ -1,0 +1,7 @@
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\bin\Debug\FileCopy.exe.config
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\bin\Debug\FileCopy.exe
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\bin\Debug\FileCopy.pdb
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\obj\Debug\FileCopy.csprojAssemblyReference.cache
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\obj\Debug\FileCopy.csproj.CoreCompileInputs.cache
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\obj\Debug\FileCopy.exe
+C:\Users\Katarina\source\repos\FileCopy\FileCopy\obj\Debug\FileCopy.pdb
