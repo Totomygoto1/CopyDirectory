@@ -43,6 +43,7 @@ namespace WF_FileCopyFacility
             this.lblMessage = new System.Windows.Forms.Label();
             this.lblMessage2 = new System.Windows.Forms.Label();
             this.lsbFileInfo = new System.Windows.Forms.ListBox();
+            this.lblCopyFromTo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCopy
@@ -182,11 +183,21 @@ namespace WF_FileCopyFacility
             this.lsbFileInfo.Size = new System.Drawing.Size(673, 68);
             this.lsbFileInfo.TabIndex = 16;
             // 
+            // lblCopyFromTo
+            // 
+            this.lblCopyFromTo.AutoSize = true;
+            this.lblCopyFromTo.Location = new System.Drawing.Point(62, 337);
+            this.lblCopyFromTo.Name = "lblCopyFromTo";
+            this.lblCopyFromTo.Size = new System.Drawing.Size(149, 17);
+            this.lblCopyFromTo.TabIndex = 17;
+            this.lblCopyFromTo.Text = "Copy From File To File";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCopyFromTo);
             this.Controls.Add(this.lsbFileInfo);
             this.Controls.Add(this.lblMessage2);
             this.Controls.Add(this.lblMessage);
@@ -226,5 +237,6 @@ namespace WF_FileCopyFacility
         private System.Windows.Forms.Label lblMessage;
         private System.Windows.Forms.Label lblMessage2;
         private System.Windows.Forms.ListBox lsbFileInfo;
+        private System.Windows.Forms.Label lblCopyFromTo;
     }
 }
