@@ -9,7 +9,7 @@ using System.IO.Compression;
 
 namespace WF_FileCopyFacility
 {
-    public class FileCopyFacility
+    public class FileCopyFacility : IFileCopyFacility
     {
         public List<string> _listFiles = new List<string>();
 
@@ -69,9 +69,10 @@ namespace WF_FileCopyFacility
 
         }
 
-        public string ZipCopyFolder(string startPath, string extractPath, string zipPath)
+        public string ZipCopyFolder(string startPath, string extractPath)
         {
             string message = "0";
+            string zipPath = startPath + ".zip";
             try
             {
                 ZipFile.CreateFromDirectory(startPath, zipPath);

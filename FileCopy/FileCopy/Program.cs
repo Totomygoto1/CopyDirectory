@@ -36,6 +36,7 @@ namespace FileCopy
 
                 if (result == 0)
                 {
+                    Console.WriteLine(cf.message);
                     Console.WriteLine("Please enter a file source path and destination path again ..");
                 }
 
@@ -50,6 +51,5 @@ namespace FileCopy
 
     }
 }
-
 
 
