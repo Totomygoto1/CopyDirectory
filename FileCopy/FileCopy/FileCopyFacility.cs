@@ -10,6 +10,7 @@ namespace FileCopy
     public class FileCopyFacility : ICopyFacility
     {
         public List<string> _listFiles = new List<string>();
+        public string message = "";
 
         public int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
@@ -30,7 +31,7 @@ namespace FileCopy
                     }
                     catch (Exception e)
                     {
-                        Console.WriteLine("Please make sure drive and folder path is correct for destination folder\n");
+                        message = "Please make sure drive and folder path is correct for destination folder";
                         return 0;
                     }
                 }
@@ -52,14 +53,13 @@ namespace FileCopy
                         string temppath = Path.Combine(destDirName, subdir.Name);
                         DirectoryCopy(subdir.FullName, temppath, copySubDirs);
                         _listFiles.Add("Copy from: " + temppathfrom + " Copy to: " + temppath);
-                        
                     }
                 }
 
             }
             catch (Exception e)
             {
-                Console.WriteLine("Please make sure drive and folder path is correct for source folder\n");
+                message = "Please make sure drive and folder path is correct for source folder";
                 return 0;
             }
 
