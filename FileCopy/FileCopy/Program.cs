@@ -27,7 +27,7 @@ namespace FileCopy
 
                 int result = cf.DirectoryCopy(@sourceDirName, @destDirName, true);
 
-                if (result == 1)
+                if (result == 0)
                 {
                     foreach (string s in cf._listFiles)
                     {
@@ -35,7 +35,7 @@ namespace FileCopy
                     }
                 }
 
-                if (result == 0)
+                if (result == 1)
                 {
                     Console.WriteLine(cf.message);
                     Console.WriteLine("Please enter a file source path and destination path again ..");

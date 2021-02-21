@@ -33,7 +33,7 @@ namespace CopyDirectory
                     catch (Exception e)
                     {
                         message = "Please make sure drive and folder path is correct for destination folder";
-                        return 0;
+                        return 1;
                     }
                 }
 
@@ -61,10 +61,10 @@ namespace CopyDirectory
             catch (Exception e)
             {
                 message = "Please make sure drive and folder path is correct for source folder";
-                return 0;
+                return 1;
             }
 
-            return 1;
+            return 0;
 
         }
 
