@@ -52,12 +52,11 @@ namespace WF_FileCopyFacility
             string source = txtSource.Text;
             string destination = txtDestination.Text;
 
-            string startPath = @source;
-            string zipPath = startPath + ".zip";
+            string startPath = @source;            
             string extractPath = @destination;
 
             FileCopyFacility cf = new FileCopyFacility();
-            string result = cf.ZipCopyFolder(startPath, extractPath, zipPath);
+            string result = cf.ZipCopyFolder(startPath, extractPath);
             if (result == "0")
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
