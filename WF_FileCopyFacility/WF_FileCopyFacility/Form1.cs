@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WF_FileCopyFacility;
+using CopyDirectory;
 using System.IO.Compression;
 
 
@@ -28,7 +29,7 @@ namespace WF_FileCopyFacility
             string source = txtSource.Text;
             string destination = txtDestination.Text;
 
-            FileCopyFacility cf = new FileCopyFacility();
+            CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
             string result = cf.DirectoryCopy(@source, @destination, true);
 
             if (result == "0")
@@ -52,7 +53,7 @@ namespace WF_FileCopyFacility
             string startPath = txtSource.Text;
             string extractPath = txtDestination.Text;
 
-            FileCopyFacility cf = new FileCopyFacility();
+            CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
             string result = cf.ZipCopyFolder(startPath, extractPath);
 
             if (result == "0")
@@ -73,7 +74,7 @@ namespace WF_FileCopyFacility
             string source = txtSource.Text;
             string destination = txtDestination.Text;
 
-            FileCopyFacility cf = new FileCopyFacility();
+            CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
             string result = cf.XCopyFolder(source, destination);
 
             if (result == "0")
@@ -93,7 +94,7 @@ namespace WF_FileCopyFacility
             string fromDirectory = txtSource.Text;
             string toDirectory = txtDestination.Text;
 
-            FileCopyFacility cf = new FileCopyFacility();
+            WF_FileCopyFacility.VBFileCopy cf = new WF_FileCopyFacility.VBFileCopy();
             string result = cf.VBCopyFolder(fromDirectory, toDirectory);
 
             if (result == "0")

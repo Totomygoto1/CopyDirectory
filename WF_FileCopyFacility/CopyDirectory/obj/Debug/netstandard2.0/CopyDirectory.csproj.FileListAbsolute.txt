@@ -1,0 +1,9 @@
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\bin\Debug\netstandard2.0\CopyDirectory.deps.json
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\bin\Debug\netstandard2.0\CopyDirectory.dll
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.csprojAssemblyReference.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.csproj.CoreCompileInputs.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.AssemblyInfoInputs.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.AssemblyInfo.cs
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\bin\Debug\netstandard2.0\CopyDirectory.pdb
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.dll
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\CopyDirectory\obj\Debug\netstandard2.0\CopyDirectory.pdb
