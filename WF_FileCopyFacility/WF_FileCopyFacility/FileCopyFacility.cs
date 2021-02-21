@@ -9,7 +9,7 @@ using System.IO.Compression;
 
 namespace WF_FileCopyFacility
 {
-    public class FileCopyFacility
+    public class FileCopyFacility : IFileCopyFacility
     {
         public List<string> _listFiles = new List<string>();
 
