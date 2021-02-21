@@ -29,15 +29,15 @@ namespace WF_FileCopyFacility
             string destination = txtDestination.Text;
 
             FileCopyFacility cf = new FileCopyFacility();
-
             string result = cf.DirectoryCopy(@source, @destination, true);
 
             if (result == "0")
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
-                
+
                 lsbFileInfo.Items.Clear();
                 lsbFileInfo.DataSource = cf._listFiles;
+
             }
             else
             {
@@ -49,14 +49,12 @@ namespace WF_FileCopyFacility
         private void btnCopyZip_Click(object sender, EventArgs e)
         {
             lblFileCopyInformation.Text = "";
-            string source = txtSource.Text;
-            string destination = txtDestination.Text;
-
-            string startPath = @source;            
-            string extractPath = @destination;
+            string startPath = txtSource.Text;
+            string extractPath = txtDestination.Text;
 
             FileCopyFacility cf = new FileCopyFacility();
             string result = cf.ZipCopyFolder(startPath, extractPath);
+
             if (result == "0")
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
@@ -76,7 +74,6 @@ namespace WF_FileCopyFacility
             string destination = txtDestination.Text;
 
             FileCopyFacility cf = new FileCopyFacility();
-
             string result = cf.XCopyFolder(source, destination);
 
             if (result == "0")
@@ -95,8 +92,10 @@ namespace WF_FileCopyFacility
             lblFileCopyInformation.Text = "";
             string fromDirectory = txtSource.Text;
             string toDirectory = txtDestination.Text;
+
             FileCopyFacility cf = new FileCopyFacility();
             string result = cf.VBCopyFolder(fromDirectory, toDirectory);
+
             if (result == "0")
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
