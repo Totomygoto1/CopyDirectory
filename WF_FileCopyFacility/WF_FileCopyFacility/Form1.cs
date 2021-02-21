@@ -23,7 +23,6 @@ namespace WF_FileCopyFacility
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
-
             lblFileCopyInformation.Text = "";
             string source = txtSource.Text;
             string destination = txtDestination.Text;
@@ -53,15 +52,15 @@ namespace WF_FileCopyFacility
             string extractPath = txtDestination.Text;
 
             CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
-            string result = cf.ZipCopyFolder(startPath, extractPath);
+            int result = cf.ZipCopyFolder(startPath, extractPath);
 
-            if (result == "0")
+            if (result == 0)
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
             }
             else
             {
-                lblFileCopyInformation.Text += result;
+                lblFileCopyInformation.Text += cf.message;
 
             }
 
@@ -74,15 +73,15 @@ namespace WF_FileCopyFacility
             string destination = txtDestination.Text;
 
             CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
-            string result = cf.XCopyFolder(source, destination);
+            int result = cf.XCopyFolder(source, destination);
 
-            if (result == "0")
+            if (result == 0)
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
             }
             else
             {
-                lblFileCopyInformation.Text += result;
+                lblFileCopyInformation.Text += cf.message;
 
             }
         }

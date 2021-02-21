@@ -7,7 +7,7 @@ namespace CopyDirectory
     public interface IFileCopyFacility
     {
         int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs);
-        string ZipCopyFolder(string startPath, string extractPath);
-        string XCopyFolder(string source, string destination);
+        int ZipCopyFolder(string startPath, string extractPath);
+        int XCopyFolder(string source, string destination);
     }
 }

@@ -17,7 +17,6 @@ namespace CopyDirectory
 
         public int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
-
             try
             {
                 DirectoryInfo dir = new DirectoryInfo(sourceDirName);
@@ -70,9 +69,8 @@ namespace CopyDirectory
 
         }
 
-        public string ZipCopyFolder(string startPath, string extractPath)
-        {
-            string message = "0";
+        public int ZipCopyFolder(string startPath, string extractPath)
+        {           
             string zipPath = startPath + ".zip";
             try
             {
@@ -82,15 +80,13 @@ namespace CopyDirectory
             catch (Exception e)
             {
                 message = "Please make sure drive and folder path is correct for source and destination folder\n";
-                return message;
+                return 1;
             }
-            return message;
+            return 0;
         }
 
-        public string XCopyFolder(string source, string destination)
+        public int XCopyFolder(string source, string destination)
         {
-            string message = "0";
-
             string xcopyPath = Environment.GetEnvironmentVariable("WINDIR") + @"\System32\xcopy.exe";
             ProcessStartInfo info = new ProcessStartInfo(xcopyPath);
 
@@ -105,10 +101,10 @@ namespace CopyDirectory
             if (process.ExitCode != 0)
             {
                 message = string.Format("Failed to copy {0} to {1}: {2}", source, destination, result);
-                return message;
+                return 1;
             }
 
-            return "0";
+            return 0;
         }
 
     }
