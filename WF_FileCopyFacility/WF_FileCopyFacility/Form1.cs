@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WF_FileCopyFacility;
 using CopyDirectory;
 using System.IO.Compression;
 
@@ -30,9 +29,9 @@ namespace WF_FileCopyFacility
             string destination = txtDestination.Text;
 
             CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
-            string result = cf.DirectoryCopy(@source, @destination, true);
+            int result = cf.DirectoryCopy(@source, @destination, true);
 
-            if (result == "0")
+            if (result == 0)
             {
                 lblFileCopyInformation.Text += "File Copy successfull ..";
 
@@ -42,7 +41,7 @@ namespace WF_FileCopyFacility
             }
             else
             {
-                lblFileCopyInformation.Text += result;
+                lblFileCopyInformation.Text += cf.message;
 
             }
         }
@@ -76,26 +75,6 @@ namespace WF_FileCopyFacility
 
             CopyDirectory.FileCopyFacility cf = new CopyDirectory.FileCopyFacility();
             string result = cf.XCopyFolder(source, destination);
-
-            if (result == "0")
-            {
-                lblFileCopyInformation.Text += "File Copy successfull ..";
-            }
-            else
-            {
-                lblFileCopyInformation.Text += result;
-
-            }
-        }
-
-        private void btnVBCopy_Click(object sender, EventArgs e)
-        {
-            lblFileCopyInformation.Text = "";
-            string fromDirectory = txtSource.Text;
-            string toDirectory = txtDestination.Text;
-
-            WF_FileCopyFacility.VBFileCopy cf = new WF_FileCopyFacility.VBFileCopy();
-            string result = cf.VBCopyFolder(fromDirectory, toDirectory);
 
             if (result == "0")
             {

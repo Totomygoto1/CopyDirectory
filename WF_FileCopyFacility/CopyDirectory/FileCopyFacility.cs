@@ -13,10 +13,10 @@ namespace CopyDirectory
     public class FileCopyFacility : IFileCopyFacility
     {
         public List<string> _listFiles = new List<string>();
+        public string message = "";
 
-        public string DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
+        public int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs)
         {
-            string message = "0";
 
             try
             {
@@ -35,7 +35,7 @@ namespace CopyDirectory
                     catch (Exception e)
                     {
                         message = "Please make sure drive and folder path is correct for destination folder\n";
-                        return message;
+                        return 1;
                     }
                 }
 
@@ -63,10 +63,10 @@ namespace CopyDirectory
             catch (Exception e)
             {
                 message = "Please make sure drive and folder path is correct for source folder\n";
-                return message;
+                return 1;
             }
 
-            return "0";
+            return 0;
 
         }
 

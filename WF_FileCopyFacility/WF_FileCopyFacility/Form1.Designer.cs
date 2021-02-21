@@ -36,7 +36,6 @@ namespace WF_FileCopyFacility
             this.lblFileCopyInformation = new System.Windows.Forms.Label();
             this.btnCopyZip = new System.Windows.Forms.Button();
             this.btnXCopy = new System.Windows.Forms.Button();
-            this.btnVBCopy = new System.Windows.Forms.Button();
             this.lblSourcemsg = new System.Windows.Forms.Label();
             this.lblDestinationmsg = new System.Windows.Forms.Label();
             this.lblFiles = new System.Windows.Forms.Label();
@@ -117,16 +116,6 @@ namespace WF_FileCopyFacility
             this.btnXCopy.UseVisualStyleBackColor = true;
             this.btnXCopy.Click += new System.EventHandler(this.btnXCopy_Click);
             // 
-            // btnVBCopy
-            // 
-            this.btnVBCopy.Location = new System.Drawing.Point(464, 266);
-            this.btnVBCopy.Name = "btnVBCopy";
-            this.btnVBCopy.Size = new System.Drawing.Size(99, 42);
-            this.btnVBCopy.TabIndex = 9;
-            this.btnVBCopy.Text = "VB Copy";
-            this.btnVBCopy.UseVisualStyleBackColor = true;
-            this.btnVBCopy.Click += new System.EventHandler(this.btnVBCopy_Click);
-            // 
             // lblSourcemsg
             // 
             this.lblSourcemsg.AutoSize = true;
@@ -168,10 +157,9 @@ namespace WF_FileCopyFacility
             this.lblMessage2.AutoSize = true;
             this.lblMessage2.Location = new System.Drawing.Point(58, 235);
             this.lblMessage2.Name = "lblMessage2";
-            this.lblMessage2.Size = new System.Drawing.Size(668, 17);
+            this.lblMessage2.Size = new System.Drawing.Size(498, 17);
             this.lblMessage2.TabIndex = 14;
-            this.lblMessage2.Text = "Zip uses ZipFile.ExtractToDirectory, XCopy uses xcopy.exe, VB uses Microsoft.Visu" +
-    "alBasic CopyDirectory";
+            this.lblMessage2.Text = "\'Zip Copy\' uses ZipFile.ExtractToDirectory, \'XCopy Copy\' uses utility xcopy.exe";
             // 
             // lsbFileInfo
             // 
@@ -204,7 +192,6 @@ namespace WF_FileCopyFacility
             this.Controls.Add(this.lblFiles);
             this.Controls.Add(this.lblDestinationmsg);
             this.Controls.Add(this.lblSourcemsg);
-            this.Controls.Add(this.btnVBCopy);
             this.Controls.Add(this.btnXCopy);
             this.Controls.Add(this.btnCopyZip);
             this.Controls.Add(this.lblFileCopyInformation);
@@ -230,7 +217,6 @@ namespace WF_FileCopyFacility
         private System.Windows.Forms.Label lblFileCopyInformation;
         private System.Windows.Forms.Button btnCopyZip;
         private System.Windows.Forms.Button btnXCopy;
-        private System.Windows.Forms.Button btnVBCopy;
         private System.Windows.Forms.Label lblSourcemsg;
         private System.Windows.Forms.Label lblDestinationmsg;
         private System.Windows.Forms.Label lblFiles;
