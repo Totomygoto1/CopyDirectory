@@ -18,3 +18,13 @@ E:\Humanus\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility
 E:\Humanus\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.csproj.CoreCompileInputs.cache
 E:\Humanus\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.exe
 E:\Humanus\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.pdb
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.csprojAssemblyReference.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.Form1.resources
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.Properties.Resources.resources
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.csproj.GenerateResource.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.csproj.CoreCompileInputs.cache
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.exe
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\obj\Debug\WF_FileCopyFacility.pdb
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\bin\Debug\WF_FileCopyFacility.exe.config
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\bin\Debug\WF_FileCopyFacility.exe
+C:\Users\Katarina\CopyDirectory\WF_FileCopyFacility\WF_FileCopyFacility\bin\Debug\WF_FileCopyFacility.pdb

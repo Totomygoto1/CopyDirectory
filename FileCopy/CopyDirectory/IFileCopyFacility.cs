@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace FileCopy
+namespace CopyDirectory
 {
-    public interface ICopyFacility
+    public interface IFileCopyFacility
     {
         int DirectoryCopy(string sourceDirName, string destDirName, bool copySubDirs);
     }

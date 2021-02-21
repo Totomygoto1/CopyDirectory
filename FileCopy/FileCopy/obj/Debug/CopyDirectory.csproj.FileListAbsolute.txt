@@ -5,3 +5,10 @@ E:\Humanus\FileCopy\FileCopy\obj\Debug\CopyDirectory.csprojAssemblyReference.cac
 E:\Humanus\FileCopy\FileCopy\obj\Debug\CopyDirectory.csproj.CoreCompileInputs.cache
 E:\Humanus\FileCopy\FileCopy\obj\Debug\FileCopy.exe
 E:\Humanus\FileCopy\FileCopy\obj\Debug\FileCopy.pdb
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\bin\Debug\FileCopy.exe.config
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\bin\Debug\FileCopy.exe
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\bin\Debug\FileCopy.pdb
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\obj\Debug\CopyDirectory.csprojAssemblyReference.cache
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\obj\Debug\CopyDirectory.csproj.CoreCompileInputs.cache
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\obj\Debug\FileCopy.exe
+C:\Users\Katarina\CopyDirectory\FileCopy\FileCopy\obj\Debug\FileCopy.pdb

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FileCopy
+namespace CopyDirectory
 {
-    public class FileCopyFacility : ICopyFacility
+    public class FileCopyFacility : IFileCopyFacility
     {
         public List<string> _listFiles = new List<string>();
         public string message = "";
@@ -67,7 +67,8 @@ namespace FileCopy
             return 1;
 
         }
-   
+
 
     }
 }
+
